@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="website-site">
+        <wb-resource deploy-path="/" source-path="/target/m2e-wtp/web-resources"/>
+        <wb-resource deploy-path="/" source-path="/src/main/webapp" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/resources"/>
+        <dependent-module archiveName="website-parent-0.0.1-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/website-parent/website-parent">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="website-service-0.0.1-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/website-service/website-service">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="website-log-0.0.1-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/website-log/website-log">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="website-entity-0.0.1-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/website-entity/website-entity">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="basic-mybatis-0.0.1-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/basic-mybatis/basic-mybatis">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="basic-common-0.0.1-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/basic-common/basic-common">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="website-pms-sync-0.0.1-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/website-pms-sync/website-pms-sync">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <property name="context-root" value="website-site"/>
+        <property name="java-output-path" value="/website-site/target/classes"/>
+    </wb-module>
+</project-modules>

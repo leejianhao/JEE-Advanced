@@ -1,0 +1,198 @@
+15:32:42.448 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+15:32:42.943 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+15:32:43.008 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Class not found: org.jboss.vfs.VFS
+15:32:43.008 [main] DEBUG org.apache.ibatis.io.ResolverUtil - JBoss 6 VFS API is not available in this environment.
+15:32:43.009 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Class not found: org.jboss.vfs.VirtualFile
+15:32:43.010 [main] DEBUG org.apache.ibatis.io.ResolverUtil - VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+15:32:43.011 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Using VFS adapter org.apache.ibatis.io.DefaultVFS
+15:32:43.012 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Find JAR URL: jar:file:/D:/tools/project%20build/maven/repos/com/greencloud/website/website-entity/0.0.1-SNAPSHOT/website-entity-0.0.1-SNAPSHOT.jar!/com/greencloud/website/entity
+15:32:43.012 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Inner URL: file:/D:/tools/project%20build/maven/repos/com/greencloud/website/website-entity/0.0.1-SNAPSHOT/website-entity-0.0.1-SNAPSHOT.jar!/com/greencloud/website/entity
+15:32:43.012 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Extracted JAR URL: file:/D:/tools/project%20build/maven/repos/com/greencloud/website/website-entity/0.0.1-SNAPSHOT/website-entity-0.0.1-SNAPSHOT.jar
+15:32:43.013 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Found JAR: file:/D:/tools/project%20build/maven/repos/com/greencloud/website/website-entity/0.0.1-SNAPSHOT/website-entity-0.0.1-SNAPSHOT.jar
+15:32:43.013 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Listing jar:file:/D:/tools/project%20build/maven/repos/com/greencloud/website/website-entity/0.0.1-SNAPSHOT/website-entity-0.0.1-SNAPSHOT.jar!/com/greencloud/website/entity
+15:32:43.013 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Found resource: /com/greencloud/website/entity/User.class
+15:32:43.014 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.greencloud.website.entity.User matches criteria [is assignable to Object]
+15:32:43.014 [main] DEBUG org.mybatis.spring.SqlSessionFactoryBean - Scanned package: 'com.greencloud.website.entity' for aliases
+15:32:43.051 [main] DEBUG org.mybatis.spring.SqlSessionFactoryBean - Parsed configuration file: 'class path resource [mybatis-config.xml]'
+15:32:43.052 [main] DEBUG org.mybatis.spring.SqlSessionFactoryBean - Property 'mapperLocations' was not specified or no matching resources found
+15:32:43.192 [main] DEBUG n.sf.ehcache.config.ConfigurationFactory - Configuring ehcache from InputStream
+15:32:43.196 [main] DEBUG n.sf.ehcache.config.ConfigurationFactory - Did not find a system property for the ${system.project_name} token specified in the configuration.Replacing with ""
+15:32:43.196 [main] DEBUG n.sf.ehcache.config.ConfigurationFactory - Found system property value of C:\Users\ljh\AppData\Local\Temp\ for the ${java.io.tmpdir} token specified in the configuration.
+15:32:43.202 [main] DEBUG net.sf.ehcache.config.BeanHandler - Ignoring ehcache attribute xmlns:xsi
+15:32:43.203 [main] DEBUG net.sf.ehcache.config.BeanHandler - Ignoring ehcache attribute xsi:noNamespaceSchemaLocation
+15:32:43.204 [main] DEBUG n.s.e.config.DiskStoreConfiguration - Disk Store Path: C:\Users\ljh\AppData\Local\Temp\/${system.project_name}/cache
+15:32:43.218 [main] DEBUG net.sf.ehcache.CacheManager - Creating new CacheManager with Configuration Object
+15:32:43.223 [main] DEBUG net.sf.ehcache.util.PropertyUtil - propertiesString is null.
+15:32:43.229 [main] DEBUG n.sf.ehcache.config.ConfigurationHelper - No CacheManagerEventListenerFactory class specified. Skipping...
+15:32:43.253 [main] DEBUG net.sf.ehcache.Cache - No BootstrapCacheLoaderFactory class specified. Skipping...
+15:32:43.253 [main] DEBUG net.sf.ehcache.Cache - CacheWriter factory not configured. Skipping...
+15:32:43.254 [main] DEBUG n.sf.ehcache.config.ConfigurationHelper - No CacheExceptionHandlerFactory class specified. Skipping...
+15:32:43.255 [main] DEBUG net.sf.ehcache.Cache - No BootstrapCacheLoaderFactory class specified. Skipping...
+15:32:43.255 [main] DEBUG net.sf.ehcache.Cache - CacheWriter factory not configured. Skipping...
+15:32:43.255 [main] DEBUG n.sf.ehcache.config.ConfigurationHelper - No CacheExceptionHandlerFactory class specified. Skipping...
+15:32:43.266 [main] DEBUG net.sf.ehcache.store.MemoryStore - Initialized net.sf.ehcache.store.MemoryStore for testCache
+15:32:43.271 [main] DEBUG net.sf.ehcache.DiskStorePathManager - Using diskstore path C:\Users\ljh\AppData\Local\Temp\${system.project_name}\cache
+15:32:43.271 [main] DEBUG net.sf.ehcache.DiskStorePathManager - Holding exclusive lock on C:\Users\ljh\AppData\Local\Temp\${system.project_name}\cache\.ehcache-diskstore.lock
+15:32:43.273 [main] DEBUG n.s.e.store.disk.DiskStorageFactory - Failed to delete file test%0043ache.index
+15:32:43.279 [main] DEBUG n.s.e.store.disk.DiskStorageFactory - Matching data file missing (or empty) for index file. Deleting index file C:\Users\ljh\AppData\Local\Temp\${system.project_name}\cache\test%0043ache.index
+15:32:43.280 [main] DEBUG n.s.e.store.disk.DiskStorageFactory - Failed to delete file test%0043ache.index
+15:32:43.285 [main] DEBUG net.sf.ehcache.Cache - Initialised cache: testCache
+15:32:43.286 [main] DEBUG n.sf.ehcache.config.ConfigurationHelper - CacheDecoratorFactory not configured. Skipping for 'testCache'.
+15:32:43.286 [main] DEBUG n.sf.ehcache.config.ConfigurationHelper - CacheDecoratorFactory not configured for defaultCache. Skipping for 'testCache'.
+15:32:43.286 [main] DEBUG net.sf.ehcache.store.MemoryStore - Initialized net.sf.ehcache.store.MemoryStore for SimplePageCachingFilter
+15:32:43.288 [main] DEBUG n.s.e.store.disk.DiskStorageFactory - Failed to delete file %0053imple%0050age%0043aching%0046ilter.index
+15:32:43.289 [main] DEBUG n.s.e.store.disk.DiskStorageFactory - Matching data file missing (or empty) for index file. Deleting index file C:\Users\ljh\AppData\Local\Temp\${system.project_name}\cache\%0053imple%0050age%0043aching%0046ilter.index
+15:32:43.289 [main] DEBUG n.s.e.store.disk.DiskStorageFactory - Failed to delete file %0053imple%0050age%0043aching%0046ilter.index
+15:32:43.290 [main] DEBUG net.sf.ehcache.Cache - Initialised cache: SimplePageCachingFilter
+15:32:43.290 [main] DEBUG n.sf.ehcache.config.ConfigurationHelper - CacheDecoratorFactory not configured. Skipping for 'SimplePageCachingFilter'.
+15:32:43.290 [main] DEBUG n.sf.ehcache.config.ConfigurationHelper - CacheDecoratorFactory not configured for defaultCache. Skipping for 'SimplePageCachingFilter'.
+15:32:52.850 [qtp1180633382-24] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+15:32:52.854 [qtp1180633382-24] DEBUG org.mybatis.spring.SqlSessionUtils - Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2910c10c]
+15:32:52.881 [qtp1180633382-24] DEBUG o.m.s.t.SpringManagedTransaction - JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@548735a] will be managed by Spring
+15:32:52.882 [qtp1180633382-24] DEBUG c.g.website.mapper.UserMapper.load - ooo Using Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@548735a]
+15:32:52.886 [qtp1180633382-24] DEBUG c.g.website.mapper.UserMapper.load - ==>  Preparing: select * from t_user where id = ? 
+15:32:52.916 [qtp1180633382-24] DEBUG c.g.website.mapper.UserMapper.load - ==> Parameters: 1(Long)
+15:32:52.942 [qtp1180633382-24] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2910c10c]
+15:32:52.945 [qtp1180633382-24] DEBUG org.mybatis.spring.SqlSessionUtils - Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2910c10c] from current transaction
+15:32:52.946 [qtp1180633382-24] DEBUG c.g.w.mapper.UserMapper.selectByName - ooo Using Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@548735a]
+15:32:52.946 [qtp1180633382-24] DEBUG c.g.w.mapper.UserMapper.selectByName - ==>  Preparing: select * from t_user where username=? 
+15:32:52.947 [qtp1180633382-24] DEBUG c.g.w.mapper.UserMapper.selectByName - ==> Parameters: leejianhao(String)
+15:32:52.953 [qtp1180633382-24] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2910c10c]
+15:32:52.954 [qtp1180633382-24] DEBUG net.sf.ehcache.store.disk.Segment - put added 0 on heap
+15:32:52.957 [qtp1180633382-24] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2910c10c]
+15:32:52.957 [qtp1180633382-24] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2910c10c]
+15:32:52.958 [qtp1180633382-24] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2910c10c]
+15:32:52.963 [test%0043ache.data] DEBUG net.sf.ehcache.store.disk.Segment - fault removed 0 from heap
+15:32:52.963 [test%0043ache.data] DEBUG net.sf.ehcache.store.disk.Segment - fault added 0 on disk
+15:50:12.554 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+15:50:14.281 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+15:50:14.383 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Class not found: org.jboss.vfs.VFS
+15:50:14.383 [main] DEBUG org.apache.ibatis.io.ResolverUtil - JBoss 6 VFS API is not available in this environment.
+15:50:14.385 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Class not found: org.jboss.vfs.VirtualFile
+15:50:14.385 [main] DEBUG org.apache.ibatis.io.ResolverUtil - VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+15:50:14.387 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Using VFS adapter org.apache.ibatis.io.DefaultVFS
+15:50:14.387 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Find JAR URL: jar:file:/D:/tools/project%20build/maven/repos/com/greencloud/website/website-entity/0.0.1-SNAPSHOT/website-entity-0.0.1-SNAPSHOT.jar!/com/greencloud/website/entity
+15:50:14.388 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Inner URL: file:/D:/tools/project%20build/maven/repos/com/greencloud/website/website-entity/0.0.1-SNAPSHOT/website-entity-0.0.1-SNAPSHOT.jar!/com/greencloud/website/entity
+15:50:14.388 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Extracted JAR URL: file:/D:/tools/project%20build/maven/repos/com/greencloud/website/website-entity/0.0.1-SNAPSHOT/website-entity-0.0.1-SNAPSHOT.jar
+15:50:14.388 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Found JAR: file:/D:/tools/project%20build/maven/repos/com/greencloud/website/website-entity/0.0.1-SNAPSHOT/website-entity-0.0.1-SNAPSHOT.jar
+15:50:14.388 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Listing jar:file:/D:/tools/project%20build/maven/repos/com/greencloud/website/website-entity/0.0.1-SNAPSHOT/website-entity-0.0.1-SNAPSHOT.jar!/com/greencloud/website/entity
+15:50:14.388 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Found resource: /com/greencloud/website/entity/User.class
+15:50:14.389 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.greencloud.website.entity.User matches criteria [is assignable to Object]
+15:50:14.390 [main] DEBUG org.mybatis.spring.SqlSessionFactoryBean - Scanned package: 'com.greencloud.website.entity' for aliases
+15:50:14.424 [main] DEBUG org.mybatis.spring.SqlSessionFactoryBean - Parsed configuration file: 'class path resource [mybatis-config.xml]'
+15:50:14.458 [main] DEBUG org.mybatis.spring.SqlSessionFactoryBean - Parsed mapper file: 'class path resource [com/greencloud/website/mapper/UserMapper.xml]'
+15:50:14.567 [main] DEBUG n.sf.ehcache.config.ConfigurationFactory - Configuring ehcache from InputStream
+15:50:14.574 [main] DEBUG n.sf.ehcache.config.ConfigurationFactory - Did not find a system property for the ${system.project_name} token specified in the configuration.Replacing with ""
+15:50:14.575 [main] DEBUG n.sf.ehcache.config.ConfigurationFactory - Found system property value of C:\Users\ljh\AppData\Local\Temp\ for the ${java.io.tmpdir} token specified in the configuration.
+15:50:14.584 [main] DEBUG net.sf.ehcache.config.BeanHandler - Ignoring ehcache attribute xmlns:xsi
+15:50:14.585 [main] DEBUG net.sf.ehcache.config.BeanHandler - Ignoring ehcache attribute xsi:noNamespaceSchemaLocation
+15:50:14.586 [main] DEBUG n.s.e.config.DiskStoreConfiguration - Disk Store Path: C:\Users\ljh\AppData\Local\Temp\/${system.project_name}/cache
+15:50:14.602 [main] DEBUG net.sf.ehcache.CacheManager - Creating new CacheManager with Configuration Object
+15:50:14.606 [main] DEBUG net.sf.ehcache.util.PropertyUtil - propertiesString is null.
+15:50:14.614 [main] DEBUG n.sf.ehcache.config.ConfigurationHelper - No CacheManagerEventListenerFactory class specified. Skipping...
+15:50:14.639 [main] DEBUG net.sf.ehcache.Cache - No BootstrapCacheLoaderFactory class specified. Skipping...
+15:50:14.639 [main] DEBUG net.sf.ehcache.Cache - CacheWriter factory not configured. Skipping...
+15:50:14.640 [main] DEBUG n.sf.ehcache.config.ConfigurationHelper - No CacheExceptionHandlerFactory class specified. Skipping...
+15:50:14.641 [main] DEBUG net.sf.ehcache.Cache - No BootstrapCacheLoaderFactory class specified. Skipping...
+15:50:14.641 [main] DEBUG net.sf.ehcache.Cache - CacheWriter factory not configured. Skipping...
+15:50:14.641 [main] DEBUG n.sf.ehcache.config.ConfigurationHelper - No CacheExceptionHandlerFactory class specified. Skipping...
+15:50:14.652 [main] DEBUG net.sf.ehcache.store.MemoryStore - Initialized net.sf.ehcache.store.MemoryStore for SimplePageCachingFilter
+15:50:14.658 [main] DEBUG net.sf.ehcache.DiskStorePathManager - Using diskstore path C:\Users\ljh\AppData\Local\Temp\${system.project_name}\cache
+15:50:14.658 [main] DEBUG net.sf.ehcache.DiskStorePathManager - Holding exclusive lock on C:\Users\ljh\AppData\Local\Temp\${system.project_name}\cache\.ehcache-diskstore.lock
+15:50:14.659 [main] DEBUG n.s.e.store.disk.DiskStorageFactory - Failed to delete file %0053imple%0050age%0043aching%0046ilter.index
+15:50:14.666 [main] DEBUG n.s.e.store.disk.DiskStorageFactory - Matching data file missing (or empty) for index file. Deleting index file C:\Users\ljh\AppData\Local\Temp\${system.project_name}\cache\%0053imple%0050age%0043aching%0046ilter.index
+15:50:14.667 [main] DEBUG n.s.e.store.disk.DiskStorageFactory - Failed to delete file %0053imple%0050age%0043aching%0046ilter.index
+15:50:14.674 [main] DEBUG net.sf.ehcache.Cache - Initialised cache: SimplePageCachingFilter
+15:50:14.674 [main] DEBUG n.sf.ehcache.config.ConfigurationHelper - CacheDecoratorFactory not configured. Skipping for 'SimplePageCachingFilter'.
+15:50:14.674 [main] DEBUG n.sf.ehcache.config.ConfigurationHelper - CacheDecoratorFactory not configured for defaultCache. Skipping for 'SimplePageCachingFilter'.
+15:50:14.675 [main] DEBUG net.sf.ehcache.store.MemoryStore - Initialized net.sf.ehcache.store.MemoryStore for testCache
+15:50:14.677 [main] DEBUG n.s.e.store.disk.DiskStorageFactory - Failed to delete file test%0043ache.index
+15:50:14.679 [main] DEBUG n.s.e.store.disk.DiskStorageFactory - Matching data file missing (or empty) for index file. Deleting index file C:\Users\ljh\AppData\Local\Temp\${system.project_name}\cache\test%0043ache.index
+15:50:14.679 [main] DEBUG n.s.e.store.disk.DiskStorageFactory - Failed to delete file test%0043ache.index
+15:50:14.680 [main] DEBUG net.sf.ehcache.Cache - Initialised cache: testCache
+15:50:14.680 [main] DEBUG n.sf.ehcache.config.ConfigurationHelper - CacheDecoratorFactory not configured. Skipping for 'testCache'.
+15:50:14.680 [main] DEBUG n.sf.ehcache.config.ConfigurationHelper - CacheDecoratorFactory not configured for defaultCache. Skipping for 'testCache'.
+15:50:20.002 [qtp1823591205-23] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+15:50:20.006 [qtp1823591205-23] DEBUG org.mybatis.spring.SqlSessionUtils - Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@194bf8af]
+15:50:20.031 [qtp1823591205-23] DEBUG o.m.s.t.SpringManagedTransaction - JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@4d9ab59a] will be managed by Spring
+15:50:20.032 [qtp1823591205-23] DEBUG c.g.website.mapper.UserMapper.load - ooo Using Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@4d9ab59a]
+15:50:20.035 [qtp1823591205-23] DEBUG c.g.website.mapper.UserMapper.load - ==>  Preparing: select * from t_user where id = ? 
+15:50:20.065 [qtp1823591205-23] DEBUG c.g.website.mapper.UserMapper.load - ==> Parameters: 1(Long)
+15:50:20.180 [qtp1823591205-23] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@194bf8af]
+15:50:20.183 [qtp1823591205-23] DEBUG org.mybatis.spring.SqlSessionUtils - Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@194bf8af] from current transaction
+15:50:20.184 [qtp1823591205-23] DEBUG c.g.w.mapper.UserMapper.selectByName - ooo Using Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@4d9ab59a]
+15:50:20.184 [qtp1823591205-23] DEBUG c.g.w.mapper.UserMapper.selectByName - ==>  Preparing: select * from t_user where username=? 
+15:50:20.186 [qtp1823591205-23] DEBUG c.g.w.mapper.UserMapper.selectByName - ==> Parameters: leejianhao(String)
+15:50:20.209 [qtp1823591205-23] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@194bf8af]
+15:50:20.210 [qtp1823591205-23] DEBUG net.sf.ehcache.store.disk.Segment - put added 0 on heap
+15:50:20.212 [qtp1823591205-23] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@194bf8af]
+15:50:20.213 [qtp1823591205-23] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@194bf8af]
+15:50:20.213 [qtp1823591205-23] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@194bf8af]
+15:50:20.217 [test%0043ache.data] DEBUG net.sf.ehcache.store.disk.Segment - fault removed 0 from heap
+15:50:20.217 [test%0043ache.data] DEBUG net.sf.ehcache.store.disk.Segment - fault added 0 on disk
+16:23:24.886 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+16:23:25.444 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+16:23:25.514 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Class not found: org.jboss.vfs.VFS
+16:23:25.514 [main] DEBUG org.apache.ibatis.io.ResolverUtil - JBoss 6 VFS API is not available in this environment.
+16:23:25.515 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Class not found: org.jboss.vfs.VirtualFile
+16:23:25.516 [main] DEBUG org.apache.ibatis.io.ResolverUtil - VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+16:23:25.517 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Using VFS adapter org.apache.ibatis.io.DefaultVFS
+16:23:25.517 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Find JAR URL: jar:file:/D:/tools/project%20build/maven/repos/com/greencloud/website/website-entity/0.0.1-SNAPSHOT/website-entity-0.0.1-SNAPSHOT.jar!/com/greencloud/website/entity
+16:23:25.517 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Inner URL: file:/D:/tools/project%20build/maven/repos/com/greencloud/website/website-entity/0.0.1-SNAPSHOT/website-entity-0.0.1-SNAPSHOT.jar!/com/greencloud/website/entity
+16:23:25.518 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Extracted JAR URL: file:/D:/tools/project%20build/maven/repos/com/greencloud/website/website-entity/0.0.1-SNAPSHOT/website-entity-0.0.1-SNAPSHOT.jar
+16:23:25.518 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Found JAR: file:/D:/tools/project%20build/maven/repos/com/greencloud/website/website-entity/0.0.1-SNAPSHOT/website-entity-0.0.1-SNAPSHOT.jar
+16:23:25.518 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Listing jar:file:/D:/tools/project%20build/maven/repos/com/greencloud/website/website-entity/0.0.1-SNAPSHOT/website-entity-0.0.1-SNAPSHOT.jar!/com/greencloud/website/entity
+16:23:25.518 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Found resource: /com/greencloud/website/entity/User.class
+16:23:25.519 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.greencloud.website.entity.User matches criteria [is assignable to Object]
+16:23:25.520 [main] DEBUG org.mybatis.spring.SqlSessionFactoryBean - Scanned package: 'com.greencloud.website.entity' for aliases
+16:23:25.560 [main] DEBUG org.mybatis.spring.SqlSessionFactoryBean - Parsed configuration file: 'class path resource [mybatis-config.xml]'
+16:23:25.592 [main] DEBUG org.mybatis.spring.SqlSessionFactoryBean - Parsed mapper file: 'class path resource [com/greencloud/website/mapper/UserMapper.xml]'
+16:23:25.698 [main] DEBUG n.sf.ehcache.config.ConfigurationFactory - Configuring ehcache from InputStream
+16:23:25.704 [main] DEBUG n.sf.ehcache.config.ConfigurationFactory - Did not find a system property for the ${system.project_name} token specified in the configuration.Replacing with ""
+16:23:25.705 [main] DEBUG n.sf.ehcache.config.ConfigurationFactory - Found system property value of C:\Users\ljh\AppData\Local\Temp\ for the ${java.io.tmpdir} token specified in the configuration.
+16:23:25.712 [main] DEBUG net.sf.ehcache.config.BeanHandler - Ignoring ehcache attribute xmlns:xsi
+16:23:25.714 [main] DEBUG net.sf.ehcache.config.BeanHandler - Ignoring ehcache attribute xsi:noNamespaceSchemaLocation
+16:23:25.716 [main] DEBUG n.s.e.config.DiskStoreConfiguration - Disk Store Path: C:\Users\ljh\AppData\Local\Temp\/${system.project_name}/cache
+16:23:25.734 [main] DEBUG net.sf.ehcache.CacheManager - Creating new CacheManager with Configuration Object
+16:23:25.739 [main] DEBUG net.sf.ehcache.util.PropertyUtil - propertiesString is null.
+16:23:25.747 [main] DEBUG n.sf.ehcache.config.ConfigurationHelper - No CacheManagerEventListenerFactory class specified. Skipping...
+16:23:25.769 [main] DEBUG net.sf.ehcache.Cache - No BootstrapCacheLoaderFactory class specified. Skipping...
+16:23:25.769 [main] DEBUG net.sf.ehcache.Cache - CacheWriter factory not configured. Skipping...
+16:23:25.770 [main] DEBUG n.sf.ehcache.config.ConfigurationHelper - No CacheExceptionHandlerFactory class specified. Skipping...
+16:23:25.770 [main] DEBUG net.sf.ehcache.Cache - No BootstrapCacheLoaderFactory class specified. Skipping...
+16:23:25.770 [main] DEBUG net.sf.ehcache.Cache - CacheWriter factory not configured. Skipping...
+16:23:25.770 [main] DEBUG n.sf.ehcache.config.ConfigurationHelper - No CacheExceptionHandlerFactory class specified. Skipping...
+16:23:25.782 [main] DEBUG net.sf.ehcache.store.MemoryStore - Initialized net.sf.ehcache.store.MemoryStore for SimplePageCachingFilter
+16:23:25.787 [main] DEBUG net.sf.ehcache.DiskStorePathManager - Using diskstore path C:\Users\ljh\AppData\Local\Temp\${system.project_name}\cache
+16:23:25.787 [main] DEBUG net.sf.ehcache.DiskStorePathManager - Holding exclusive lock on C:\Users\ljh\AppData\Local\Temp\${system.project_name}\cache\.ehcache-diskstore.lock
+16:23:25.788 [main] DEBUG n.s.e.store.disk.DiskStorageFactory - Failed to delete file %0053imple%0050age%0043aching%0046ilter.index
+16:23:25.795 [main] DEBUG n.s.e.store.disk.DiskStorageFactory - Matching data file missing (or empty) for index file. Deleting index file C:\Users\ljh\AppData\Local\Temp\${system.project_name}\cache\%0053imple%0050age%0043aching%0046ilter.index
+16:23:25.796 [main] DEBUG n.s.e.store.disk.DiskStorageFactory - Failed to delete file %0053imple%0050age%0043aching%0046ilter.index
+16:23:25.802 [main] DEBUG net.sf.ehcache.Cache - Initialised cache: SimplePageCachingFilter
+16:23:25.802 [main] DEBUG n.sf.ehcache.config.ConfigurationHelper - CacheDecoratorFactory not configured. Skipping for 'SimplePageCachingFilter'.
+16:23:25.803 [main] DEBUG n.sf.ehcache.config.ConfigurationHelper - CacheDecoratorFactory not configured for defaultCache. Skipping for 'SimplePageCachingFilter'.
+16:23:25.803 [main] DEBUG net.sf.ehcache.store.MemoryStore - Initialized net.sf.ehcache.store.MemoryStore for testCache
+16:23:25.805 [main] DEBUG n.s.e.store.disk.DiskStorageFactory - Failed to delete file test%0043ache.index
+16:23:25.806 [main] DEBUG n.s.e.store.disk.DiskStorageFactory - Matching data file missing (or empty) for index file. Deleting index file C:\Users\ljh\AppData\Local\Temp\${system.project_name}\cache\test%0043ache.index
+16:23:25.807 [main] DEBUG n.s.e.store.disk.DiskStorageFactory - Failed to delete file test%0043ache.index
+16:23:25.808 [main] DEBUG net.sf.ehcache.Cache - Initialised cache: testCache
+16:23:25.808 [main] DEBUG n.sf.ehcache.config.ConfigurationHelper - CacheDecoratorFactory not configured. Skipping for 'testCache'.
+16:23:25.808 [main] DEBUG n.sf.ehcache.config.ConfigurationHelper - CacheDecoratorFactory not configured for defaultCache. Skipping for 'testCache'.
+16:23:43.219 [qtp852713311-23] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+16:23:43.224 [qtp852713311-23] DEBUG org.mybatis.spring.SqlSessionUtils - Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@546a4fda]
+16:23:43.265 [qtp852713311-23] DEBUG o.m.s.t.SpringManagedTransaction - JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@59d57c39] will be managed by Spring
+16:23:43.267 [qtp852713311-23] DEBUG c.g.website.mapper.UserMapper.load - ooo Using Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@59d57c39]
+16:23:43.272 [qtp852713311-23] DEBUG c.g.website.mapper.UserMapper.load - ==>  Preparing: select * from t_user where id = ? 
+16:23:43.320 [qtp852713311-23] DEBUG c.g.website.mapper.UserMapper.load - ==> Parameters: 1(Long)
+16:23:43.353 [qtp852713311-23] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@546a4fda]
+16:23:43.357 [qtp852713311-23] DEBUG org.mybatis.spring.SqlSessionUtils - Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@546a4fda] from current transaction
+16:23:43.357 [qtp852713311-23] DEBUG c.g.w.mapper.UserMapper.selectByName - ooo Using Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@59d57c39]
+16:23:43.358 [qtp852713311-23] DEBUG c.g.w.mapper.UserMapper.selectByName - ==>  Preparing: select * from t_user where username=? 
+16:23:43.360 [qtp852713311-23] DEBUG c.g.w.mapper.UserMapper.selectByName - ==> Parameters: leejianhao(String)
+16:23:43.368 [qtp852713311-23] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@546a4fda]
+16:23:43.370 [qtp852713311-23] DEBUG net.sf.ehcache.store.disk.Segment - put added 0 on heap
+16:23:43.374 [qtp852713311-23] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@546a4fda]
+16:23:43.374 [qtp852713311-23] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@546a4fda]
+16:23:43.374 [qtp852713311-23] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@546a4fda]
+16:23:43.380 [test%0043ache.data] DEBUG net.sf.ehcache.store.disk.Segment - fault removed 0 from heap
+16:23:43.381 [test%0043ache.data] DEBUG net.sf.ehcache.store.disk.Segment - fault added 0 on disk
